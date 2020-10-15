@@ -1,8 +1,13 @@
-# Keylogger C/C++
+# C/C ++ Keylogger
 
-A simple keylogger that register the key and the time in a file .txt. (If the file doesn't exist, the program (main.exe) creates one.)
+A simple keylogger that records the key and the time in a .txt file. (If the file does not exist, the program (main.exe) will create one.)
 
-The keylogger is called silently by a file .bat (run.bat) that runs a Chrome Browser. 
-In addiction, the .bat file is called every time the .vbs is executed. 
+The keylogger is called silently by a .bat file (run.bat) that runs a Chrome browser.
+In addition, the .bat file is called whenever the .vbs is run.
 
-In other words, every time the file .vbs (or you can just add a shortcut (Google Chrome.lnk and change the icon for a better trap) is executed, the keylogger is incicialized, just being possible to stop it ending the process in the Task Manager or restarting the system. 
+That is, every time the .vbs file (or you can just add a shortcut (Google Chrome.lnk) and change the icon for a better trap) is executed, the keylogger is initialized, being possible to just interrupt it by terminating the process in the Task Manager or by restarting the system.
+
+# How to avoid getting caught in a keylogger like this?
+
+The most important thing is to check the shortcut properties of your usual program and see if the destination is a .vbs file. If so, DO NOT CLICK.
+PS: This repository is for educational purposes. Spying on other people through a keylogger is a digital crime and I am NOT responsible for any attitude of those who use this program for other purposes.
