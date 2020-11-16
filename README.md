@@ -3,9 +3,9 @@
 A simple keylogger that records the key and the time in a .txt file. (If the file does not exist, the program (main.exe) will create one.)
 
 The keylogger is called silently by a .bat file (run.bat) that runs a Chrome browser.
-In addition, the .bat file is called whenever the .vbs is run.
+In addition, the .bat file is called whenever the .vbs runs.
 
-However, every time the .vbs file (or you can just add a shortcut (Google Chrome.lnk) and change the icon for a better trap) is executed, the keylogger is initialized, being possible to just interrupt it by terminating the process in the Task Manager or by restarting the system.
+However, every time the .vbs file (or you can just add a shortcut (Google Chrome.lnk) and change the icon for a better trap) is executed, the keylogger is initialized, being possible to interrupt it by terminating the process in the Task Manager or by restarting the system.
 
 # How to avoid getting caught in a keylogger like this?
 
